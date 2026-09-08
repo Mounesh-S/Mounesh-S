@@ -28,7 +28,7 @@
 
 <br/><br/>
 
-<a href="https://github.com/Mounesh-S"><img src="https://img.shields.io/github/followers/Mounesh-S?style=for-the-badge&logo=github&label=JOIN%20THE%20CREW&color=161B26&labelColor=161B26" alt="follow" /></a>
+<a href="https://github.com/Mounesh-S"><img src="https://img.shields.io/github/followers/Mounesh-S?style=for-the-badge&logo=github&label=JOIN%20THE%20CREW&color=38BDF8&labelColor=161B26" alt="follow" /></a>
 <a href="https://github.com/Mounesh-S/Advanced_Keylogger-with-ML-model"><img src="https://img.shields.io/github/stars/Mounesh-S/Advanced_Keylogger-with-ML-model?style=for-the-badge&logo=github&label=STAR%20THE%20SHARK%20SUBMERGE%20III&color=D4AF37&labelColor=161B26" alt="star" /></a>
 
 </div>
