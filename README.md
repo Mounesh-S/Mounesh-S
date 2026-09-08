@@ -142,9 +142,11 @@ creed:       "I don't want to conquer anything. I just think the
 
 ## `🧭 LOG POSE NAVIGATION`
 
+*A real Log Pose points at something real. These three needles read live numbers — repositories, commits, storage — refreshed daily by Actions, not fixed dial positions.*
+
 <div align="center">
 
-<img src="assets/op_logpose.svg" alt="New World Triple Log Pose HUD" width="100%" />
+<img src="assets/op_logpose.svg" alt="New World Triple Log Pose HUD — live voyage instruments" width="100%" />
 
 <br/><br/>
 

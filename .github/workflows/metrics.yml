@@ -84,5 +84,24 @@ jobs:
 # its public history (real commit history lives pre-transfer on the old
 # account, and GitHub doesn't carry event history across a repo transfer),
 # so plugin_habits always rendered an empty card no matter the time window.
-# assets/op_shiplog.svg — a small hand-authored card — fills that slot
-# instead, using real numbers pulled from the overview card above.
+# assets/op_shiplog.svg fills that slot instead, and the Log Pose gauges
+# were repointed at real numbers too -- both are regenerated below by
+# scripts/gen_dynamic_logpose.py, which just re-reads what the Overview
+# card already fetched (no extra API calls, no drift between the two).
+
+  dynamic:
+    name: Log Pose + Ship's Log (live numbers)
+    needs: overview
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: git pull --ff-only origin main
+      - run: python3 scripts/gen_dynamic_logpose.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/op_logpose.svg assets/op_shiplog.svg
+          git diff --cached --quiet || git commit -m "chore: refresh Log Pose + Ship's Log with live numbers"
+          git push
