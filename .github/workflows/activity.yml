@@ -1,6 +1,13 @@
 # Writes your last 5 GitHub events as real markdown text between the
 # START_SECTION/END_SECTION markers in README.md — no image, no third
 # party server to go down. If GitHub itself is up, this is up.
+#
+# This runs scripts/gen_activity_feed.py rather than a third-party action:
+# jamesgeorge007/github-activity-readme has a hardcoded check that only
+# recognizes PullRequest/Issue/IssueComment/Release events, so it always
+# found nothing for an account whose real activity is forks, discussions,
+# and similar event types outside that list. The self-hosted script reads
+# the same public Events API with no such restriction.
 name: Recent activity
 
 on:
@@ -16,11 +23,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
+      - run: python3 scripts/gen_activity_feed.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          GH_USERNAME: Mounesh-S
-          MAX_LINES: 5
-          COMMIT_MSG: "chore: update recent activity"
-          FILTER_EVENTS: WatchEvent,ForkEvent,CreateEvent,PushEvent,PublicEvent,MemberEvent,PullRequestEvent,IssuesEvent,IssueCommentEvent,ReleaseEvent,DiscussionEvent,GollumEvent,CommitCommentEvent,PullRequestReviewEvent
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update recent activity"
+            git push
+          fi
