@@ -158,7 +158,7 @@ creed:       "I don't want to conquer anything. I just think the
 <br/><br/>
 
 <img src="assets/metrics.languages.svg" alt="languages" width="46%" />
-<img src="assets/metrics.habits.svg" alt="habits" width="46%" />
+<img src="assets/op_shiplog.svg" alt="ship's log — early voyage stats" width="46%" />
 
 <br/><br/>
 
