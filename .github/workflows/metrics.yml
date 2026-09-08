@@ -27,6 +27,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           config_timezone: Asia/Kolkata
+          config_theme: dark
           config_display: large
           plugin_lines: yes
           plugin_lines_history_limit: 1
@@ -47,6 +48,7 @@ jobs:
           filename: assets/metrics.isocalendar.svg
           base: ""
           config_timezone: Asia/Kolkata
+          config_theme: dark
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
@@ -61,8 +63,8 @@ jobs:
           filename: assets/metrics.languages.svg
           base: ""
           config_timezone: Asia/Kolkata
+          config_theme: dark
           plugin_languages: yes
-          plugin_languages_indepth: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
@@ -79,6 +81,7 @@ jobs:
           filename: assets/metrics.habits.svg
           base: ""
           config_timezone: Asia/Kolkata
+          config_theme: dark
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
