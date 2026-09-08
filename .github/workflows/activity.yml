@@ -1,0 +1,23 @@
+# Writes your last 5 GitHub events as real markdown text between the
+# START_SECTION/END_SECTION markers in README.md — no image, no third
+# party server to go down. If GitHub itself is up, this is up.
+name: Recent activity
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jamesgeorge007/github-activity-readme@master
+        with:
+          GH_USERNAME: Mounesh-S
+          MAX_LINES: 5
+          COMMIT_MSG: "chore: update recent activity"

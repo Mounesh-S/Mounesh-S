@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="130" viewBox="0 0 800 130" role="img" aria-label="generating">
+  <rect width="800" height="130" rx="10" fill="#0D1117" stroke="#30363D"/>
+  <text x="400" y="60" text-anchor="middle" font-family="JetBrains Mono,Consolas,monospace" font-size="15" fill="#1F6FEB">metrics.habits.svg</text>
+  <text x="400" y="86" text-anchor="middle" font-family="JetBrains Mono,Consolas,monospace" font-size="13" fill="#8B949E">generating on first Actions run…</text>
+</svg>

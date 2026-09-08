@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 640" width="480" height="640" role="img" aria-label="Wanted poster: Mounesh the Emperor S">
+<title>Wanted — Mounesh &quot;The Emperor&quot; S</title>
+<defs>
+    <linearGradient id="slate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1B2233"/><stop offset="55%" stop-color="#161B26"/><stop offset="100%" stop-color="#0B0F19"/>
+    </linearGradient>
+    <linearGradient id="silGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2D9A0"/><stop offset="60%" stop-color="#C5A059"/><stop offset="100%" stop-color="#8A6A1C"/>
+    </linearGradient>
+    <radialGradient id="silHalo" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.28"/><stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="silShadow" x="-50%" y="-20%" width="200%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000" flood-opacity="0.5"/>
+    </filter></defs>
+<rect width="480" height="640" fill="url(#slate)"/>
+<line x1="162" y1="111" x2="175" y2="104" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="256" y1="239" x2="220" y2="240" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="36" y1="280" x2="2" y2="274" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="207" y1="516" x2="177" y2="512" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="296" y1="589" x2="302" y2="587" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="450" y1="48" x2="478" y2="45" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="83" y1="91" x2="68" y2="96" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="100" y1="369" x2="111" y2="367" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="261" y1="58" x2="226" y2="53" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="319" y1="277" x2="305" y2="278" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="219" y1="200" x2="243" y2="203" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="127" y1="365" x2="129" y2="371" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="341" y1="193" x2="379" y2="187" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="204" y1="474" x2="176" y2="474" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="37" y1="421" x2="58" y2="422" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="405" y1="208" x2="421" y2="210" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="275" y1="294" x2="302" y2="301" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="229" y1="418" x2="193" y2="422" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="305" y1="616" x2="330" y2="612" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="190" y1="421" x2="152" y2="421" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="94" y1="90" x2="59" y2="95" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="77" y1="169" x2="68" y2="175" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="55" y1="290" x2="59" y2="296" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="380" y1="538" x2="363" y2="537" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="178" y1="551" x2="214" y2="545" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="98" y1="159" x2="76" y2="159" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="279" y1="178" x2="240" y2="176" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="182" y1="360" x2="219" y2="363" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="247" y1="391" x2="261" y2="383" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="416" y1="488" x2="446" y2="493" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="193" y1="259" x2="161" y2="262" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="47" y1="60" x2="24" y2="55" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="170" y1="52" x2="130" y2="46" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="65" y1="238" x2="27" y2="244" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="290" y1="109" x2="270" y2="107" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/><line x1="180" y1="94" x2="208" y2="102" stroke="#D4AF37" stroke-width="0.5" opacity="0.06"/>
+<path d="M 22 6 L 458 6 L 474 22 L 474 618 L 458 634 L 22 634 L 6 618 L 6 22 Z"
+      fill="none" stroke="#C5A059" stroke-width="4"/>
+      <path d="M 30 14 L 450 14 L 466 30 L 466 610 L 450 626 L 30 626 L 14 610 L 14 30 Z"
+      fill="none" stroke="#C5A059" stroke-width="1.2" opacity="0.5"/>
+<text x="243.0" y="81" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="900" fill="#000000" opacity="0.55" letter-spacing="6" >WANTED</text><text x="240.0" y="78" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="900" fill="#F8FAFC" letter-spacing="6" >WANTED</text>
+<line x1="60" y1="98" x2="420" y2="98" stroke="#C5A059" stroke-width="2"/>
+<rect x="60" y="130" width="360" height="260" fill="#10141F" stroke="#C5A059" stroke-width="2.5"/>
+    <rect x="66" y="136" width="348" height="248" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="10 6" opacity="0.7"/>
+    
+    <circle cx="240.0" cy="272.0" r="88" fill="url(#silHalo)"/>
+    <g transform="translate(240.0,272.0) scale(0.82)" filter="url(#silShadow)">
+      <!-- captain at the helm: an original silhouette, not a photo -->
+      <circle cx="0" cy="-64" r="17" fill="url(#silGrad)" opacity="0.95"/>
+      <path d="M -20 -74 Q 0 -96 20 -74 L 24 -66 Q 0 -78 -24 -66 Z" fill="url(#silGrad)" opacity="0.95"/>
+      <path d="M -30 -6 Q -34 -48 0 -50 Q 34 -48 30 -6 L 34 40 L -34 40 Z" fill="url(#silGrad)" opacity="0.92"/>
+      <circle cx="0" cy="42" r="30" fill="none" stroke="url(#silGrad)" stroke-width="3" opacity="0.85"/>
+      <circle cx="0" cy="42" r="6" fill="url(#silGrad)" opacity="0.85"/>
+      <line x1="0" y1="12" x2="0" y2="72" stroke="url(#silGrad)" stroke-width="3" opacity="0.85"/>
+      <line x1="-30" y1="42" x2="30" y2="42" stroke="url(#silGrad)" stroke-width="3" opacity="0.85"/>
+      <line x1="-21" y1="21" x2="21" y2="63" stroke="url(#silGrad)" stroke-width="3" opacity="0.85"/>
+      <line x1="21" y1="21" x2="-21" y2="63" stroke="url(#silGrad)" stroke-width="3" opacity="0.85"/>
+      <path d="M -30 -6 Q -50 10 -34 34" fill="none" stroke="url(#silGrad)" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+      <path d="M 30 -6 Q 50 10 34 34" fill="none" stroke="url(#silGrad)" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <text x="240.0" y="376" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#94A3B8" font-style="italic">SILHOUETTE ONLY — TRUE FACE UNKNOWN</text>
+<g transform="translate(240.0,430)">
+      <polygon points="-190,-22 190,-22 210,0 190,22 -190,22 -210,0" fill="#9E2A2B" stroke="#5C1516" stroke-width="2"/>
+      <text x="0" y="7" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="900" fill="#F8FAFC" letter-spacing="2">DEAD OR ALIVE</text>
+    </g>
+<rect x="40" y="486" width="400" height="46" rx="4" fill="#0B0F19" stroke="#D4AF37" stroke-width="1"/>
+    <rect x="44" y="490" width="392" height="38" rx="3" fill="none" stroke="#D4AF37" stroke-width="1.2" opacity="0.6"/>
+    <text x="240.0" y="516" text-anchor="middle" font-family="Georgia, serif" font-size="19" font-weight="700" fill="#F8FAFC" letter-spacing="1">MOUNESH &#8220;THE EMPEROR&#8221; S</text>
+<text x="240.0" y="573" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="900" fill="#D4AF37" letter-spacing="0.5">&#3647; 3,000,000,000-</text>
+    <text x="240.0" y="598" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10.5" fill="#94A3B8" letter-spacing="1.5">YONKO · ONLY RUNNING SYSTEMS</text>
+    <line x1="90" y1="612" x2="390" y2="612" stroke="#C5A059" stroke-width="1.2" opacity="0.6"/>
+<g stroke="#C5A059" fill="none" stroke-width="3.06" stroke-linecap="round"><circle cx="70" cy="570.2" r="5.44" fill="#C5A059" stroke="none"/><line x1="70" y1="575.3" x2="70" y2="614.4"/><line x1="56.4" y1="582.1" x2="83.6" y2="582.1"/><path d="M 51.3 595.7 Q 51.3 616.1 70 614.4"/><path d="M 88.7 595.7 Q 88.7 616.1 70 614.4"/><path d="M 63.88 611.0 L 70 616.1 L 76.12 611.0" fill="#C5A059" stroke="none"/></g>
+<defs><path id="sealpath404590top" d="M 370.0 580.0 A 34.0 34.0 0 0 1 438.0 580.0"/><path id="sealpath404590bot" d="M 376.0 604.0 A 28.0 28.0 0 0 0 432.0 604.0"/></defs><polygon points="444.0,590.0 439.5,599.5 438.6,610.0 430.0,616.0 424.0,624.6 413.5,625.5 404.0,630.0 394.5,625.5 384.0,624.6 378.0,616.0 369.4,610.0 368.5,599.5 364.0,590.0 368.5,580.5 369.4,570.0 378.0,564.0 384.0,555.4 394.5,554.5 404.0,550.0 413.5,554.5 424.0,555.4 430.0,564.0 438.6,570.0 439.5,580.5" fill="#9E2A2B" opacity="0.85"/><circle cx="404" cy="590" r="32.8" fill="none" stroke="#000" stroke-opacity="0.25" stroke-width="1"/><text font-family="Georgia, serif" font-size="10" font-weight="700" fill="#F4E4BA" letter-spacing="1.5"><textPath href="#sealpath404590top" startOffset="50%" text-anchor="middle">WORLD GOVERNMENT</textPath></text><text font-family="Georgia, serif" font-size="9" font-weight="700" fill="#F4E4BA" letter-spacing="1.5"><textPath href="#sealpath404590bot" startOffset="50%" text-anchor="middle">NAVY ARCHIVES</textPath></text>
+</svg>
