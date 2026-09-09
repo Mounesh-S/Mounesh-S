@@ -1,19 +1,14 @@
-# Writes your last 5 GitHub events as real markdown text between the
-# START_SECTION/END_SECTION markers in README.md — no image, no third
-# party server to go down. If GitHub itself is up, this is up.
-#
-# This runs scripts/gen_activity_feed.py rather than a third-party action:
-# jamesgeorge007/github-activity-readme has a hardcoded check that only
-# recognizes PullRequest/Issue/IssueComment/Release events, so it always
-# found nothing for an account whose real activity is forks, discussions,
-# and similar event types outside that list. The self-hosted script reads
-# the same public Events API with no such restriction.
+# Refreshes distinct public events and the repository-hosted contribution calendar.
 name: Recent activity
 
 on:
   schedule:
     - cron: "*/30 * * * *"   # every 30 minutes
   workflow_dispatch:
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -26,11 +21,18 @@ jobs:
       - run: python3 scripts/gen_activity_feed.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: python3 scripts/gen_contributions.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md assets/contributions.svg
           if ! git diff --cached --quiet; then
             git commit -m "chore: update recent activity"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push; then exit 0; fi
+            done
+            exit 1
           fi
