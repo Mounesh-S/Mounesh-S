@@ -1,0 +1,39 @@
+# Renders the classic "snake eats the contribution graph" animation from
+# real GitHub contribution data (Platane/snk), self-hosted in assets/ like
+# everything else here. Replaces the 3D isocalendar card in metrics.yml.
+name: Snake
+
+on:
+  schedule:
+    - cron: "0 2 * * *"        # daily, 02:00 UTC (07:30 IST)
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: Mounesh-S
+          outputs: |
+            assets/snake.svg?palette=github-dark
+            assets/snake.gif?color_snake=38BDF8&color_dots=161B26,0e4429,006d32,26a641,39d353
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/snake.svg assets/snake.gif
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update snake contribution animation"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push; then exit 0; fi
+            done
+            exit 1
+          fi

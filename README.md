@@ -62,10 +62,8 @@ creed:       "I don't want to conquer anything. I just think the
              person with the most freedom in this whole ocean...
              is the King of the Pirates!" — Monkey D. Luffy
 ```
-
-> 🏴‍☠️ **Sound the horn if you need:** full-stack builds, event-driven
-> backends, Kafka/NiFi pipelines, DSPy / agent tooling — or a second
-> opinion on why your p99 looks like a Sea King attack.
+<img src="https://skillicons.dev/icons?i=python,ts,react,kafka&perline=4&theme=dark" alt="Python, TypeScript, React, Kafka" />
+<img src="https://img.shields.io/badge/Apache%20NiFi-38BDF8?style=flat-square&labelColor=161B26" alt="NiFi" /> <img src="https://img.shields.io/badge/DSPy-9E2A2B?style=flat-square&labelColor=161B26" alt="DSPy" />
 
 </td>
 </tr>
@@ -163,7 +161,7 @@ creed:       "I don't want to conquer anything. I just think the
 
 <br/><br/>
 
-<img src="assets/metrics.isocalendar.svg" alt="voyage calendar" width="90%" />
+<img src="assets/snake.svg" alt="Contribution snake — the real GitHub contribution calendar, eaten by a snake" width="90%" />
 
 <br/><br/>
 
