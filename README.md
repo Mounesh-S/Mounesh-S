@@ -14,37 +14,18 @@
 
 <div align="center">
 
-# Mounesh S
-### Full-Stack AI Engineer · CasaRetail AI
-
-Building AI features, full-stack products, and the data systems that connect them — from database schema and APIs through the React interface to production.
-
-<img src="https://skillicons.dev/icons?i=python,ts,react,fastapi,nodejs,kafka,postgresql&perline=7&theme=dark" alt="Python, TypeScript, React, FastAPI, Node.js, Kafka, PostgreSQL" />
-
-<a href="https://www.linkedin.com/in/mounesh-s-131a56273"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:mounesh0711@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/Mounesh-S/Mounesh-S/discussions"><img src="https://img.shields.io/badge/Discussions-9E2A2B?style=for-the-badge&labelColor=161B26" alt="GitHub Discussions" /></a>
-<img src="https://komarev.com/ghpvc/?username=Mounesh-S&label=Profile%20views&color=9E2A2B&style=for-the-badge" alt="profile views" />
-
-</div>
-
-<br/>
-
-<details>
-<summary align="center"><i>🏴‍☠️ There's a One Piece theme running through this profile — click to sail in</i></summary>
-
-<div align="center">
-
-<img src="assets/emperors-log.png" alt="The Emperor's Log — Mounesh S, Full-Stack AI Engineer, with the Thousand Sunny under a midnight sky" width="70%" />
+<img src="assets/emperors-log.png" alt="The Emperor's Log — Mounesh S, Full-Stack AI Engineer, with the Thousand Sunny under a midnight sky" width="100%" />
 
 <a href="https://github.com/Mounesh-S">
   <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=22&pause=1400&color=D4AF37&center=true&vCenter=true&width=780&height=40&lines=Chief+Shipwright+of+AI+Agents+%26+NiFi+Pipelines.;Full-Stack+Developer+%26+AI+Engineer." alt="Full-Stack Developer & AI Engineer" />
+</a>
 
-<br/><br/>
+<br/>
 
 <img src="https://img.shields.io/badge/BOUNTY-%E0%B8%BF3%2C000%2C000%2C000-9E2A2B?style=for-the-badge&labelColor=161B26" alt="bounty" />
 <img src="https://img.shields.io/badge/FLEET-CASARETAIL%20AI-D4AF37?style=for-the-badge&labelColor=161B26" alt="fleet" />
 <img src="https://img.shields.io/badge/WATERS-NEW%20WORLD-38BDF8?style=for-the-badge&labelColor=161B26" alt="waters" />
+<img src="https://komarev.com/ghpvc/?username=Mounesh-S&label=SEA%20SIGHTINGS&color=9E2A2B&style=for-the-badge" alt="sea sightings" />
 
 <br/><br/>
 
@@ -52,8 +33,6 @@ Building AI features, full-stack products, and the data systems that connect the
 <a href="https://github.com/Mounesh-S/Advanced_Keylogger-with-ML-model"><img src="https://img.shields.io/github/stars/Mounesh-S/Advanced_Keylogger-with-ML-model?style=for-the-badge&logo=github&label=STAR%20THE%20SHARK%20SUBMERGE%20III&color=D4AF37&labelColor=161B26" alt="star" /></a>
 
 </div>
-
-</details>
 
 ---
 
@@ -107,7 +86,7 @@ creed:       "I don't want to conquer anything. I just think the
 
 ## `🔧 THE THOUSAND SUNNY DOCKYARD`
 
-*Water 7 shipwrighting, mapped onto the fleet I actually maintain.*
+### Selected Projects
 
 <div align="center">
 
@@ -117,22 +96,24 @@ creed:       "I don't want to conquer anything. I just think the
 
 <br/>
 
-| ship | status | log entry |
+| project | type | what it does |
 |---|---|---|
-| **Maestro** | captained | Multi-provider AI agent orchestrator — CLI routing chat/research/architecture/review/implement to the best-suited provider; heuristic zero-call classification cuts 20K–28K tokens per invocation. *(no public repo yet)* |
-| [`Advanced_Keylogger-with-ML-model`](https://github.com/Mounesh-S/Advanced_Keylogger-with-ML-model) | captained | Keystroke-timing anomaly detection with a One-Class SVM, flagging unusual typing patterns for endpoint security — presented at ICETER '24. |
-| **Pulse** | captained | AI content operating system — Fastify + React 18, shared Zod contract, automatic primary-to-fallback model routing. *(private repo)* |
-| [`nifi-flows-controller`](https://github.com/Mounesh-S/nifi-flows-controller) | captained | Kafka → ClickHouse streaming, NiFi flow control for retail data pipelines. |
-| [`redmine-6.1`](https://github.com/Mounesh-S/redmine-6.1) | captained | Enterprise rigging — config-driven plugin work on an existing platform. |
-| **Vendor Routing Platform** | captained | Versioned vendor configuration, a React console, and a Quarkus / Apache Camel data plane — new integrations shipped through config, not code. *(CasaRetail AI · internal)* |
-| **Tenant Onboarding** | captained | Connection testing, AI-assisted source-to-target mapping, historical backfill, and scheduled sync in one workflow. *(CasaRetail AI · internal)* |
-| **Subscription Management** | captained | Schema, APIs, and billing screens for subscriptions, with automated renewals and two-way Zoho Books sync. *(CasaRetail AI · internal)* |
+| [`Advanced_Keylogger-with-ML-model`](https://github.com/Mounesh-S/Advanced_Keylogger-with-ML-model) | Public repo | Keystroke-timing anomaly detection with a One-Class SVM, flagging unusual typing patterns for endpoint security — presented at ICETER '24. |
+| [`nifi-flows-controller`](https://github.com/Mounesh-S/nifi-flows-controller) | Public repo | Kafka → ClickHouse streaming, NiFi flow control for retail data pipelines. |
+| [`redmine-6.1`](https://github.com/Mounesh-S/redmine-6.1) | Public repo | Enterprise plugin work on an existing platform — config-driven customization. |
+| **Maestro** | Personal · no public repo yet | Multi-provider AI agent orchestrator — CLI routing chat/research/architecture/review/implement to the best-suited provider; heuristic zero-call classification cuts 20K–28K tokens per invocation. |
+| **Pulse** | Personal · private repo | AI content operating system — Fastify + React 18, shared Zod contract, automatic primary-to-fallback model routing. |
+| **Vendor Routing Platform** | CasaRetail AI · internal | Versioned vendor configuration, a React console, and a Quarkus / Apache Camel data plane — new integrations shipped through config, not code. |
+| **Tenant Onboarding** | CasaRetail AI · internal | Connection testing, AI-assisted source-to-target mapping, historical backfill, and scheduled sync in one workflow. |
+| **Subscription Management** | CasaRetail AI · internal | Schema, APIs, and billing screens for subscriptions, with automated renewals and two-way Zoho Books sync. |
+
+<p align="center"><sub>🏴‍☠️ <i>Water 7 shipwrighting, mapped onto the fleet I actually maintain.</i></sub></p>
 
 ---
 
 ## `⚔ THE FOUR ROAD PONEGLYPHS`
 
-*Four stones. Read together, they mark the way to Laugh Tale. Read separately, they're just my stack.*
+### Tools & Languages
 
 <div align="center">
 
@@ -140,28 +121,30 @@ creed:       "I don't want to conquer anything. I just think the
 
 <br/><br/>
 
-**cognitive archive** — AI &amp; LLM engineering &nbsp;·&nbsp; <a href="https://github.com/Mounesh-S/Advanced_Keylogger-with-ML-model">open the ledger ↗</a>
+**AI &amp; LLM Engineering** &nbsp;·&nbsp; <a href="https://github.com/Mounesh-S/Advanced_Keylogger-with-ML-model">see it in use ↗</a>
 
 <img src="https://skillicons.dev/icons?i=python,tensorflow&perline=4&theme=dark" alt="AI languages" />
 <img src="https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&labelColor=161B26&logo=anthropic&logoColor=FFFFFF" alt="Anthropic" />
 <img src="https://img.shields.io/badge/DSPy-9E2A2B?style=for-the-badge&labelColor=161B26" alt="DSPy" />
 
-**tide archive** — data streams &amp; pipelines &nbsp;·&nbsp; <a href="https://github.com/Mounesh-S/nifi-flows-controller">open the ledger ↗</a>
+**Data Streams &amp; Pipelines** &nbsp;·&nbsp; <a href="https://github.com/Mounesh-S/nifi-flows-controller">see it in use ↗</a>
 
 <img src="https://skillicons.dev/icons?i=kafka,postgres&perline=4&theme=dark" alt="data infra" />
 <img src="https://img.shields.io/badge/Apache%20NiFi-38BDF8?style=for-the-badge&labelColor=161B26" alt="NiFi" />
 <img src="https://img.shields.io/badge/ClickHouse-38BDF8?style=for-the-badge&labelColor=161B26" alt="ClickHouse" />
 
-**rigging archive** — backend &amp; full-stack &nbsp;·&nbsp; <a href="https://github.com/Mounesh-S/redmine-6.1">open the ledger ↗</a>
+**Backend &amp; Full-Stack** &nbsp;·&nbsp; <a href="https://github.com/Mounesh-S/redmine-6.1">see it in use ↗</a>
 
 <img src="https://skillicons.dev/icons?i=python,ts,react&perline=3&theme=dark" alt="languages" />
 <img src="https://img.shields.io/badge/Quarkus-D4AF37?style=for-the-badge&labelColor=161B26&logo=quarkus&logoColor=D4AF37" alt="Quarkus" />
 
-**keel archive** — infra &amp; observability &nbsp;·&nbsp; <a href="https://github.com/Mounesh-S/Mounesh-S/tree/main/.github/workflows">open the ledger ↗</a>
+**Infra &amp; Observability** &nbsp;·&nbsp; <a href="https://github.com/Mounesh-S/Mounesh-S/tree/main/.github/workflows">see it in use ↗</a>
 
 <img src="https://skillicons.dev/icons?i=docker,linux,nginx,githubactions,grafana,prometheus&perline=6&theme=dark" alt="infra" />
 
 </div>
+
+<p align="center"><sub>🏴‍☠️ <i>Four stones. Read together, they mark the way to Laugh Tale.</i></sub></p>
 
 ---
 
