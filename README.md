@@ -43,8 +43,9 @@
 <td width="42%" valign="top" align="center">
 
 <a href="https://www.linkedin.com/in/mounesh-s-131a56273" title="Open the full dossier on LinkedIn">
-  <img src="assets/op_wanted.svg" alt="Wanted: Mounesh the Emperor — click for the full dossier" width="100%" />
+  <img src="assets/op_wanted.svg" alt="Wanted: Mounesh the Emperor — click for the full dossier" width="62%" />
 </a>
+<!-- swap op_wanted.svg's silhouette for a real photo later; the frame/layout already fits either -->
 
 </td>
 <td width="58%" valign="top">
@@ -62,8 +63,6 @@ creed:       "I don't want to conquer anything. I just think the
              person with the most freedom in this whole ocean...
              is the King of the Pirates!" — Monkey D. Luffy
 ```
-<img src="https://skillicons.dev/icons?i=python,ts,react,kafka&perline=4&theme=dark" alt="Python, TypeScript, React, Kafka" />
-<img src="https://img.shields.io/badge/Apache%20NiFi-38BDF8?style=flat-square&labelColor=161B26" alt="NiFi" /> <img src="https://img.shields.io/badge/DSPy-9E2A2B?style=flat-square&labelColor=161B26" alt="DSPy" />
 
 </td>
 </tr>
