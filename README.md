@@ -222,11 +222,10 @@ creed:       "I don't want to conquer anything. I just think the
 <br/><br/>
 
 <a href="https://github.com/Mounesh-S/Mounesh-S/discussions"><img src="https://img.shields.io/badge/💬%20SIGN%20THE%20LOG%20POSE-9E2A2B?style=for-the-badge&labelColor=161B26" alt="Sign the Log Pose — GitHub Discussions" /></a>
-<a href="https://claude.ai/code/artifact/18e27b87-12e0-45fb-80ba-c074fdc4dbbd"><img src="https://img.shields.io/badge/🎯%20TEST%20YOUR%20HAKI-D4AF37?style=for-the-badge&labelColor=161B26" alt="Play: Observation Haki reflex test" /></a>
 
 </div>
 
-<p align="center"><i>Every ship that passes leaves a mark — <a href="https://github.com/Mounesh-S/Mounesh-S/discussions">open a Discussion</a> and say hello, or test your reflexes against Kenbunshoku Haki.</i></p>
+<p align="center"><i>Every ship that passes leaves a mark — <a href="https://github.com/Mounesh-S/Mounesh-S/discussions">open a Discussion</a> and say hello.</i></p>
 
 <br/>
 
