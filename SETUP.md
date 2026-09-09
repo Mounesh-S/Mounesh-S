@@ -17,7 +17,7 @@ Nothing else is special. It's a normal repo.
 | **2 · Live CDN** | `skillicons.dev`, `shields.io`, `komarev.com`, `streak-stats.demolab.com`, `summary-cards` | If the host goes down |
 | **3 · Self-hosted (SVG)** | `assets/op_*.svg`, `assets/metrics*.svg` — built by Actions, served from *this repo* | Never (GitHub serves them) |
 | **3b · Self-written text** | the *World Economic Journal* activity feed — written as real markdown by `activity.yml` via `scripts/gen_activity_feed.py`, no image at all | Never — it's just text |
-| **4 · AI-generated art** | `assets/emperors-log.png` (banner), `assets/new-world.png` — see `docs/ARTWORK.md` | Never (committed here), but see the copyright note below |
+| **4 · AI-generated art** | `assets/emperors-log.png` (banner) — see `docs/ARTWORK.md` | Never (committed here), but see the copyright note below |
 
 **Why the SVG layer matters.** The popular tutorials tell you to use
 `github-readme-stats.vercel.app`, `github-profile-trophy.vercel.app` and
@@ -26,12 +26,14 @@ Nothing else is special. It's a normal repo.
 out. Layer 3 avoids that: a GitHub Action renders the same information into SVG
 files **inside your repo**, so the images are served by GitHub itself.
 
-**A note on the two PNG images.** `emperors-log.png` and `new-world.png` are
-AI-generated depictions of Luffy and the Thousand Sunny — recognizable
-copyrighted character designs, even though AI-generated and disclosed as fan
-art (`docs/ARTWORK.md`). They're included here at the profile owner's explicit
+**A note on the banner image.** `emperors-log.png` is an AI-generated
+depiction of Luffy and the Thousand Sunny — recognizable copyrighted
+character designs, even though AI-generated and disclosed as fan art
+(`docs/ARTWORK.md`). It's included here at the profile owner's explicit
 request; everything else in `assets/` is original vector art that doesn't
-reproduce any copyrighted character design.
+reproduce any copyrighted character design. A second such image
+(`new-world.png`) was removed and replaced with a plain-text Luffy quote
+near "The Voyage So Far".
 
 ## Token & permissions (already configured on this repo)
 

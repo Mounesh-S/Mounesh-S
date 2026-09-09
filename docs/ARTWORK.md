@@ -4,7 +4,6 @@
 
 `assets/emperors-log.png` was generated using the built-in imagegen tool and
 copied into the repository. It is One Piece fan artwork, not official artwork.
-The existing `new-world.png` is displayed as the Gear 5 illustration near the footer.
 
 Generation prompt:
 
@@ -19,5 +18,12 @@ the profile's original One Piece build: the Dossier/wanted-poster identity,
 company-specific proprietary numbers, and the `assets/op_*.svg` illustration
 set (Dockyard, Poneglyphs, Log Pose, etc., see the README's own header
 comment) took priority, and `assets/contributions.svg` duplicated the
-already-dark-themed `assets/metrics.isocalendar.svg` calendar card. The two
-AI-generated images above were kept at the owner's explicit request.
+already-dark-themed `assets/metrics.isocalendar.svg` calendar card (that
+card was itself later replaced by the snake contribution animation, see
+`.github/workflows/snake.yml`). `emperors-log.png` was kept at the owner's
+explicit request.
+
+## Removal note · 9 September 2026
+
+`new-world.png` (the Gear 5 illustration near "The Voyage So Far") was
+removed at the owner's request and replaced with a plain-text Luffy quote.
