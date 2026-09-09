@@ -14,18 +14,37 @@
 
 <div align="center">
 
-<img src="assets/emperors-log.png" alt="The Emperor's Log — Mounesh S, Full-Stack AI Engineer, with the Thousand Sunny under a midnight sky" width="100%" />
+# Mounesh S
+### Full-Stack AI Engineer · CasaRetail AI
+
+Building AI features, full-stack products, and the data systems that connect them — from database schema and APIs through the React interface to production.
+
+<img src="https://skillicons.dev/icons?i=python,ts,react,fastapi,nodejs,kafka,postgresql&perline=7&theme=dark" alt="Python, TypeScript, React, FastAPI, Node.js, Kafka, PostgreSQL" />
+
+<a href="https://www.linkedin.com/in/mounesh-s-131a56273"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:mounesh0711@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/Mounesh-S/Mounesh-S/discussions"><img src="https://img.shields.io/badge/Discussions-9E2A2B?style=for-the-badge&labelColor=161B26" alt="GitHub Discussions" /></a>
+<img src="https://komarev.com/ghpvc/?username=Mounesh-S&label=Profile%20views&color=9E2A2B&style=for-the-badge" alt="profile views" />
+
+</div>
+
+<br/>
+
+<details>
+<summary align="center"><i>🏴‍☠️ There's a One Piece theme running through this profile — click to sail in</i></summary>
+
+<div align="center">
+
+<img src="assets/emperors-log.png" alt="The Emperor's Log — Mounesh S, Full-Stack AI Engineer, with the Thousand Sunny under a midnight sky" width="70%" />
 
 <a href="https://github.com/Mounesh-S">
   <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=22&pause=1400&color=D4AF37&center=true&vCenter=true&width=780&height=40&lines=Chief+Shipwright+of+AI+Agents+%26+NiFi+Pipelines.;Full-Stack+Developer+%26+AI+Engineer." alt="Full-Stack Developer & AI Engineer" />
-</a>
 
-<br/>
+<br/><br/>
 
 <img src="https://img.shields.io/badge/BOUNTY-%E0%B8%BF3%2C000%2C000%2C000-9E2A2B?style=for-the-badge&labelColor=161B26" alt="bounty" />
 <img src="https://img.shields.io/badge/FLEET-CASARETAIL%20AI-D4AF37?style=for-the-badge&labelColor=161B26" alt="fleet" />
 <img src="https://img.shields.io/badge/WATERS-NEW%20WORLD-38BDF8?style=for-the-badge&labelColor=161B26" alt="waters" />
-<img src="https://komarev.com/ghpvc/?username=Mounesh-S&label=SEA%20SIGHTINGS&color=9E2A2B&style=for-the-badge" alt="sea sightings" />
 
 <br/><br/>
 
@@ -33,6 +52,8 @@
 <a href="https://github.com/Mounesh-S/Advanced_Keylogger-with-ML-model"><img src="https://img.shields.io/github/stars/Mounesh-S/Advanced_Keylogger-with-ML-model?style=for-the-badge&logo=github&label=STAR%20THE%20SHARK%20SUBMERGE%20III&color=D4AF37&labelColor=161B26" alt="star" /></a>
 
 </div>
+
+</details>
 
 ---
 
@@ -211,7 +232,7 @@ creed:       "I don't want to conquer anything. I just think the
 
 <div align="center">
 
-<img src="assets/new-world.png" alt="One Piece fan artwork: Gear 5 Luffy above the moonlit Grand Line, with the Thousand Sunny sailing below" width="70%" />
+<img src="assets/new-world.png" alt="One Piece fan artwork: Gear 5 Luffy above the moonlit Grand Line, with the Thousand Sunny sailing below" width="50%" />
 
 </div>
 
