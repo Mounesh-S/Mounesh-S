@@ -18,3 +18,6 @@ resources. Their movement is decorative; it does not represent live measurements
 `contributions.svg` is a code-generated data visualization, not generated fan
 art. `scripts/gen_contributions.py` reads GitHub's contribution calendar and
 renders each returned day once. The Recent activity workflow refreshes it.
+
+The animated strips use `<picture>` with explicit `*-still.svg` alternatives
+for reduced-motion viewers, in addition to the SVG-level CSS rule.

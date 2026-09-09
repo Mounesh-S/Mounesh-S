@@ -11,7 +11,7 @@ illustration. The ship/current animation and Haki accent use CSS inside
 standalone SVG images, with a still state for reduced-motion preferences.
 No JavaScript, external image service, or external game is required.
 
-Regenerate the five decorative SVGs with:
+Regenerate the decorative SVGs and their explicit reduced-motion alternatives with:
 
 ```bash
 python3 scripts/build_readme_assets.py

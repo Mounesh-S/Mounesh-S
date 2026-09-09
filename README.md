@@ -17,7 +17,10 @@
 
 <p align="center"><a href="#the-shipwright">About</a> · <a href="#the-thousand-sunny-dockyard">Selected work</a> · <a href="#the-four-road-poneglyphs">Stack</a> · <a href="#the-voyage-so-far">Journey</a> · <a href="#the-captains-log">Activity</a></p>
 
-<img src="assets/grand-line.svg" alt="A small pirate ship rocks gently on an animated Grand Line current" width="100%" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/grand-line-still.svg" />
+  <img src="assets/grand-line.svg" alt="A small pirate ship rocks gently on an animated Grand Line current" width="100%" />
+</picture>
 
 ## The shipwright
 
@@ -72,7 +75,10 @@ Four disciplines that help me take an idea all the way to a working product.
 | **Data** · Keep the current moving | Python · SQL · Kafka · NiFi · ClickHouse · PostgreSQL · Redis |
 | **Reliability** · Be ready for rough seas | Docker · Linux · Nginx · GitHub Actions · Prometheus · Grafana |
 
-<img src="assets/haki.svg" alt="Observation: AI and agent systems. Armament: reliable data pipelines. Conqueror: end-to-end ownership." width="100%" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/haki-still.svg" />
+  <img src="assets/haki.svg" alt="Observation: AI and agent systems. Armament: reliable data pipelines. Conqueror: end-to-end ownership." width="100%" />
+</picture>
 
 ## The voyage so far
 

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="116" viewBox="0 0 860 116" role="img" aria-labelledby="title">
+<title id="title">Sailing the Grand Line — a gently moving ship and ocean current</title>
+
+
+<defs><linearGradient id="sea" x2="1" y2="0"><stop stop-color="#0D1117"/><stop offset=".5" stop-color="#122B36"/><stop offset="1" stop-color="#0D1117"/></linearGradient></defs>
+<rect width="860" height="116" rx="8" fill="url(#sea)"/>
+<g fill="none" stroke="#45616C" opacity=".45"><path d="M0 77Q54 65 108 77T324 77T540 77T756 77T972 77"/><path d="M-108 93Q-54 81 0 93T216 93T432 93T648 93T864 93" class="waves"/></g>
+<path d="M50 54H350M510 54H810" fill="none" stroke="#668286" stroke-width="1" stroke-dasharray="3 10" class="route"/>
+<g fill="#C5A572"><circle cx="50" cy="54" r="3"/><circle cx="810" cy="54" r="3"/></g>
+<g class="ship"><path d="M392 70H468L457 85H407Z" fill="#704F37" stroke="#C5A572"/><path d="M431 16V71" stroke="#C5A572" stroke-width="2"/><path d="M426 23Q398 29 401 60H426Z" fill="#D9D4C2"/><path d="M437 23Q463 36 464 60H437Z" fill="#B9C6C5"/><path d="M431 16V8L449 12 431 16" fill="#9E4147"/><path d="M392 70H468M409 77H453" stroke="#C5A572"/>
+<g fill="#1B2931"><ellipse cx="414" cy="41" rx="5" ry="6"/><path d="M405 38H423V40H405Z"/><path d="M409 36Q414 30 419 36Z"/></g></g>
+<g fill="#80A3AC"><circle cx="293" cy="24" r="1.5"/><circle cx="567" cy="22" r="1.5"/><path d="M619 30v8m-4-4h8M218 29v6m-3-3h6" stroke="#80A3AC" stroke-width="1"/></g>
+
+</svg>

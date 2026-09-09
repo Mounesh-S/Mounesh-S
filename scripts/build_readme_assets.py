@@ -49,3 +49,13 @@ for name, label, accent, icon in [
     width = 190 if name=='contact-logbook.svg' else 145
     save(name, width, 38, label, f'''<rect x=".5" y=".5" width="{width-1}" height="37" rx="6" fill="#161F29" stroke="#34434D"/><g fill="none" stroke="{accent}" stroke-width="1.5">{icon}</g><text x="44" y="23" fill="{accent}" font-family="Arial,sans-serif" font-size="11" font-weight="bold" letter-spacing="1">{label}</text>''')
 print('Built five local README SVGs, including two reduced-motion-aware animations.')
+
+# A picture source lets the parent page select a still image even when the
+# browser does not propagate a changed motion preference into an SVG image.
+import re
+for name in ('grand-line', 'haki'):
+    source = (ASSETS / f'{name}.svg').read_text()
+    still = re.sub(r'<style>.*?</style>', '', source, flags=re.S)
+    ElementTree.fromstring(still)
+    (ASSETS / f'{name}-still.svg').write_text(still)
+print('Built two explicit still-image alternatives for reduced-motion picture sources.')
