@@ -1,4 +1,5 @@
-# Refreshes distinct public events and the repository-hosted contribution calendar.
+# Writes distinct recent public GitHub events as real markdown text between the
+# START_SECTION/END_SECTION markers in README.md -- no image, nothing to hotlink.
 name: Recent activity
 
 on:
@@ -21,13 +22,10 @@ jobs:
       - run: python3 scripts/gen_activity_feed.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: python3 scripts/gen_contributions.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/contributions.svg
+          git add README.md
           if ! git diff --cached --quiet; then
             git commit -m "chore: update recent activity"
             for attempt in 1 2 3; do
