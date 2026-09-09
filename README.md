@@ -43,7 +43,7 @@
 <td width="42%" valign="top" align="center">
 
 <a href="https://www.linkedin.com/in/mounesh-s-131a56273" title="Open the full dossier on LinkedIn">
-  <img src="assets/op_wanted.svg" alt="Wanted: Mounesh the Emperor S — click for the full dossier" width="100%" />
+  <img src="assets/op_wanted.svg" alt="Wanted: Mounesh the Emperor — click for the full dossier" width="100%" />
 </a>
 
 </td>
