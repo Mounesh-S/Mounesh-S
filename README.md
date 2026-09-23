@@ -8,7 +8,8 @@
   │  emperors-log.png is AI-generated One Piece fan art (see docs/ARTWORK.md) —    │
   │  not official artwork, included at the owner's call.                          │
   │  Every claim below traces to a real source in Documents/Resume/ — no          │
-  │  invented numbers, and forked repos are excluded from the fleet.              │
+  │  invented numbers, forked repos excluded from the fleet, and CasaRetail work  │
+  │  is described by tech/role only -- no tenant counts, volumes, or benchmarks.  │
   └────────────────────────────────────────────────────────────────┘
 -->
 
@@ -38,46 +39,35 @@
 
 ## `☠ DOSSIER OF THE SHIPWRIGHT`
 
-<table>
-<tr>
-<td width="42%" valign="top" align="center">
+Full-stack and AI engineer building production systems for a multi-tenant retail CRM/CDP at CasaRetail AI. Designs event-driven backend platforms — Quarkus/Apache Camel vendor routing that treats every integration as versioned configuration instead of code, Kafka streaming into ClickHouse and PostgreSQL — and ships LLM features with DSPy as optimizable programs rather than hand-tuned prompts. Builds the full stack end to end: React interfaces, Node.js/Express and FastAPI APIs, and the ETL pipelines that feed them. B.Tech in Artificial Intelligence and Data Science, Bannari Amman Institute of Technology (CGPA 8.24/10).
 
-<a href="https://www.linkedin.com/in/mounesh-s-131a56273" title="Open the full dossier on LinkedIn">
-  <img src="assets/op_wanted.svg" alt="Wanted: Mounesh the Emperor — click for the full dossier" width="62%" />
-</a>
-<!-- swap op_wanted.svg's silhouette for a real photo later; the frame/layout already fits either -->
+<div align="center">
 
-</td>
-<td width="58%" valign="top">
+<img src="https://skillicons.dev/icons?i=python,ts,react,kafka&perline=4&theme=dark" alt="Python, TypeScript, React, Kafka" />
+<img src="https://img.shields.io/badge/Apache%20NiFi-38BDF8?style=flat-square&labelColor=161B26" alt="NiFi" /> <img src="https://img.shields.io/badge/DSPy-9E2A2B?style=flat-square&labelColor=161B26" alt="DSPy" />
 
-```yaml
-name:        Mounesh S
-epithet:     "The Emperor"
-ambition:    King of the Pirates
-rank:        Yonko (Emperor)
-crew:        CasaRetail AI
-devil_fruit: Hito Hito no Mi, Model: Nika — Sun God (Awakened)
-haki:        Python · TypeScript · SQL
-sea:         Salem, Tamil Nadu · UTC+5:30
-creed:       "I don't want to conquer anything. I just think the
-             person with the most freedom in this whole ocean...
-             is the King of the Pirates!" — Monkey D. Luffy
-```
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
 ## `⚓ CURRENT VOYAGE`
 
-| | island | what's waiting there |
-|---|---|---|
-| 🧠 | **MCP servers & agent tooling** | typed access to internal systems |
-| 🌊 | **Apache NiFi flow control** | steer data flows from code, not a canvas |
-| 🧩 | **Redmine plugins** | an old ship refitted for a modern crew |
-| 🐍 | **Full-stack apps & Python services** | frontend to backend, plus the rigging that holds it together |
+**Software Engineer** · CasaRetail AI · July 2026 – Present
+
+- Design and build a vendor routing platform on Quarkus and Apache Camel, treating every integration as versioned configuration rather than code, so new vendors onboard without a deployment.
+- Guarantee ingestion durability with Kafka acks=all acknowledgement, dead-letter routing, exponential-backoff redelivery, and RFC 9457 problem documents for validation errors.
+- Tune replica sizing and resource allocation behind an Nginx ingress for latency and availability.
+- Build LLM-powered features with DSPy — authored as optimizable programs (typed signatures, ChainOfThought, BootstrapFewShot) rather than hand-tuned prompt strings — generating Redmine-fed report summaries and prioritized task briefs.
+- Deliver an end-to-end tenant-onboarding platform: database/API/SFTP connection testing, AI-assisted source-to-target column mapping, historical backfill, and a cron-based retry-and-queue scheduler.
+
+**Software Engineer Intern** · CasaRetail AI · July 2025 – July 2026
+
+- Built configuration-driven, multi-tenant ETL services routing multiple upload types into ClickHouse and PostgreSQL.
+- Engineered a Kafka-to-ClickHouse streaming service with offset management, retry logic, dead-letter handling, and alerting on failed records.
+- Executed loyalty-data migrations reconciling PostgreSQL and ClickHouse state across production tenants.
+- Built the Subscription Management System end to end — React, Node.js/Express, PostgreSQL — with a scheduled auto-renewal engine and two-way Zoho Books sync.
+- Diagnosed production incidents across a Node.js, Kotlin, and Scala upload chain — JDBC driver issues, ClickHouse parsing errors, Kafka offset handling, Redis timeouts.
+- Deployed and administered Docker-based services on Ubuntu Linux with Nginx, Let's Encrypt, systemd, and cron.
 
 ---
 
@@ -103,6 +93,9 @@ creed:       "I don't want to conquer anything. I just think the
 | **Vendor Routing Platform** | CasaRetail AI · internal | Versioned vendor configuration, a React console, and a Quarkus / Apache Camel data plane — new integrations shipped through config, not code. |
 | **Tenant Onboarding** | CasaRetail AI · internal | Connection testing, AI-assisted source-to-target mapping, historical backfill, and scheduled sync in one workflow. |
 | **Subscription Management** | CasaRetail AI · internal | Schema, APIs, and billing screens for subscriptions, with automated renewals and two-way Zoho Books sync. |
+| **DreamSketch AI** | Academic · team of 4 | Deep-learning platform generating animations from user sketches, text prompts, or freeform ideas. *(Python, TensorFlow)* |
+| **Job Scheduling API** | Personal | REST API with JWT cookie auth and bcrypt hashing, Sequelize migrations/seeders for reproducible state. *(Node.js, Express, PostgreSQL)* |
+| **Cricket Score Analysis Dashboard** | Academic | Power BI dashboard surfacing player performance, run rates, and team statistics. |
 
 <p align="center"><sub>🏴‍☠️ <i>Water 7 shipwrighting, mapped onto the fleet I actually maintain.</i></sub></p>
 
@@ -255,5 +248,6 @@ creed:       "I don't want to conquer anything. I just think the
 - **TCS CodeVita Season 12** — ranked 971 of 1,347 competitors globally (Round 2)
 - **B.Tech, Artificial Intelligence and Data Science** — Bannari Amman Institute of Technology, CGPA 8.24/10
 - **Paper Presentation, ICETER '24** — *Advanced Keylogging Framework*, One-Class SVM anomaly detection for endpoint security ([`Advanced_Keylogger-with-ML-model`](https://github.com/Mounesh-S/Advanced_Keylogger-with-ML-model))
+- **Certifications** — Coursera (C for Everyone: Programming Fundamentals; Python Data Structures) · Microsoft Learn (Introduction to Data Science; Fundamentals of AI) · Infosys Springboard (Git Introduction)
 
 </details>
