@@ -41,13 +41,6 @@
 
 Full-stack and AI engineer building production systems for a multi-tenant retail CRM/CDP at CasaRetail AI. Designs event-driven backend platforms — Quarkus/Apache Camel vendor routing that treats every integration as versioned configuration instead of code, Kafka streaming into ClickHouse and PostgreSQL — and ships LLM features with DSPy as optimizable programs rather than hand-tuned prompts. Builds the full stack end to end: React interfaces, Node.js/Express and FastAPI APIs, and the ETL pipelines that feed them. B.Tech in Artificial Intelligence and Data Science, Bannari Amman Institute of Technology (CGPA 8.24/10).
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,ts,react,kafka&perline=4&theme=dark" alt="Python, TypeScript, React, Kafka" />
-<img src="https://img.shields.io/badge/Apache%20NiFi-38BDF8?style=flat-square&labelColor=161B26" alt="NiFi" /> <img src="https://img.shields.io/badge/DSPy-9E2A2B?style=flat-square&labelColor=161B26" alt="DSPy" />
-
-</div>
-
 ---
 
 ## `⚓ CURRENT VOYAGE`
