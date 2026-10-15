@@ -181,7 +181,6 @@ Full-stack and AI engineer building production systems for a multi-tenant retail
 - 2026-09-29 · 🍴 Forked [alanisme/claude-code-decompiled](https://github.com/alanisme/claude-code-decompiled)
 - 2026-09-29 · ⭐ Starred [alanisme/claude-code-decompiled](https://github.com/alanisme/claude-code-decompiled)
 - 2026-09-22 · 🍴 Forked [AntigmaLabs/ante](https://github.com/AntigmaLabs/ante)
-- 2026-09-15 · 🍴 Forked [DevDock-AI/claude-unlimited](https://github.com/DevDock-AI/claude-unlimited)
 <!--END_SECTION:activity-->
 
 ---
