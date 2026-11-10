@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" role="img" aria-label="Mounesh pirate flag">
+<title>Mounesh pirate flag</title><style>@media(prefers-reduced-motion:reduce){*{animation:none!important}} .current{stroke-dasharray:4 9;animation:flow 30s linear infinite}@keyframes flow{to{stroke-dashoffset:-260}}</style>
+<defs><pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0v25" fill="none" stroke="#85b6b3" stroke-opacity=".06"/></pattern><radialGradient id="glow"><stop stop-color="#85b6b3" stop-opacity=".1"/><stop offset="1" stop-color="#85b6b3" stop-opacity="0"/></radialGradient></defs>
+<rect width="40" height="40" rx="8" fill="#080f16"/><g fill="none" stroke="#c4aa79" stroke-width="1.5"><path d="M8 35V5c8-7 16 7 26 0v20c-10 7-18-7-26 0"/><circle cx="21" cy="13" r="4"/><path d="m15 19 12 5m0-5-12 5M19 16v3h4v-3"/></g></svg>
